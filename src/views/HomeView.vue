@@ -1,9 +1,14 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+<template>
+  主页面
+</template>
+
+<script setup lang='ts'>
+import { onMounted, reactive, ref } from 'vue';
+
+onMounted(() => {});
+
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped lang="scss">
+
+</style>
