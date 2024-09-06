@@ -13,6 +13,8 @@ node_modules
 # docs-ssr
 coverage
 *.local
+auto-imports.d.ts
+components.d.ts
 
 /cypress/videos/
 /cypress/screenshots/
