@@ -75,9 +75,6 @@
             <span class="ne-text">- Use ESLint to standardize code, improving the efficiency of collaborative
                 development.</span>
         </p>
-        <p>
-            <br />
-        </p>
     </el-card>
 </template>
 

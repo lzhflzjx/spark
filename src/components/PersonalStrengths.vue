@@ -19,9 +19,6 @@
       <span class="ne-text">4. Actively learn and enhance personal skillset. I have learned and become proficient in
         using the React + React Router + Redux suite for project development.</span>
     </p>
-    <p>
-      <br />
-    </p>
   </el-card>
 </template>
 

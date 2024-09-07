@@ -1,17 +1,15 @@
 <template>
-  <el-container>
-    <el-aside>Aside</el-aside>
-    <el-container>
-      <el-header>Header</el-header>
-      <el-main>
-        <BaseIformation></BaseIformation>
-        <PersonalStrengths></PersonalStrengths>
-        <ProjectExperience></ProjectExperience>
-        <WorkHistory></WorkHistory>
-      </el-main>
-      <el-footer>Footer</el-footer>
-    </el-container>
-  </el-container>
+  <el-row :gutter="20">
+    <el-col :span="16" :offset="4">
+      <BaseIformation></BaseIformation>
+      <br />
+      <PersonalStrengths></PersonalStrengths>
+      <br />
+      <ProjectExperience></ProjectExperience>
+      <br />
+      <WorkHistory></WorkHistory>
+    </el-col>
+  </el-row>
 </template>
 
 <script setup lang='ts'>
